@@ -16,7 +16,7 @@ function Home(){
         <Icon/>
         </Col>
             <Col lg={6} >
-                <h3 class="secondhead">HI, i'm {username} </h3>
+                <h3 class="secondhead">HI, i'm Vishnu kk </h3>
                 <main class="containers">
                 <section class="animation">
                     <div class="first">
