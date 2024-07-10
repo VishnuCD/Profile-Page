@@ -4,14 +4,14 @@ import '../css/home.css'
 import Footer from './footer';
 import Icon from './icons';
 import Head from './head';
-import { LiaHackerrank } from "react-icons/lia";
+import { MdOutlineDeveloperMode } from "react-icons/md";
 function Home(){
     const username=sessionStorage.getItem('username');
     return(
         <>
     <Container fluid>
         <Row>
-        <h4 class="firsthead"><LiaHackerrank size={50} style={{fill:' rgb(0, 255, 0)'}}/>ack</h4>
+        <h4 class="firsthead"><MdOutlineDeveloperMode  size={50} style={{fill:' rgb(0, 255, 0)'}}/>Software Devloper</h4>
         <Col>
         <Icon/>
         </Col>
@@ -33,8 +33,7 @@ function Home(){
                     </div>
                 </section>
                 </main>
-                <p class="description">Dedicated technology enthusiast with an insatiable curiosity for
-                    unravelling the complexities  of our digital world.</p><br />
+                <p class="description">Dynamic and detail-oriented Computer Science graduate with hands-on experience in MERN Stack technologies, seeking an entry-level position to contribute to the development of robust web applications. Eager to leverage skills in MongoDB, Express.js, React.js, and Node.js to create intuitive user interfaces and contribute to innovative projects</p><br />
                     <div class="about-btn">
        <a href=''><button class="button me-2">Project</button></a>
        <a href='/about'><button class="button me-2">About me </button></a>

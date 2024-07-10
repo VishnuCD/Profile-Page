@@ -21,33 +21,22 @@ function About(){
                 <p class="first-col-para mt25">Who am i ?</p>
                 </Col>
                 <Col lg={6}>
-                <p class="second-col-para">React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next. js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality. 
+                <p class="second-col-para">👋 Hi there! I'm Vishnu, a budding MERN Stack Developer fresh out of college with a zest for building web applications that not only function seamlessly but also deliver a satisfying user experience. Dive into details about my journey and work! 🚀
+
+From the University of Calicut, where I earned my degree in Computer Science, to my hands internships, my academic and professional path has been geared towards understanding and mastering technologies like React.js, Node.js, Express.js, and MongoDB. I have practical experience from conceptualizing and developing an e-commerce platform for a bakery to creating a user-centric profile management system. Each project was a stepping stone, strengthening my coding skills and understanding of web development nuances.
+
+I believe in the power of collaboration and continuous learning; during my internships, I not only refined my technical skills but also learned to thrive in team settings, pushing projects from ideation to launch. I’m always enthusiastic about meeting challenges head-on and rolling out features that enhance user interactions.
+
+🎥 Outside my professional life, I recharge by watching movies and tuning into my favorite music, which keeps me creatively inspired and ready to tackle the next coding challenge.. 
                 </p>
                 </Col>
             </Row>
             <Row>
                 <Col lg={5}>
-                <p class="first-col-para mt50">Work Timeline</p>
+                
                 </Col>
                 <Col lg={7}>
-                <table>
-                    <tr style={{border:"2px solid white"}}>
-                        <td>Example 1</td>
-                        <td>Meta</td>
-                        <td> 2023</td>
-                    </tr>
-                    <tr style={{border:"2px solid white"}}>
-                        <td>Example 1</td>
-                        <td>Google</td>
-                        <td> 2021</td>
-                    </tr>
-                    <tr style={{border:"2px solid white"}}>
-                        <td>Example 1</td>
-                        <td>Microsoft</td>
-                        <td> 2020</td>
-                    </tr>
-                    <tr></tr>
-                </table>
+              
                 </Col>
             </Row>
             <Row>
@@ -59,32 +48,32 @@ function About(){
     <div class="row">
         <div >
             <a class="btn btn-lg me-1" href="#">
-                <span class="about-span">python</span>
+                <span class="about-span">React js</span>
             </a>
             <a class="btn btn-lg me-1" href="#">
-                <span class="about-span">c</span>
+                <span class="about-span">html</span>
             </a>
             <a class="btn btn-lg me-1" href="#">
-                <span class="about-span">java</span>
+                <span class="about-span">Css</span>
             </a>
             <a class="btn btn-lg me-1" href="#">
-                <span class="about-span">Bash</span>
+                <span class="about-span">Bootstrap</span>
             </a>
         </div>
     </div>
     <div class="row">
         <div >
             <a class="btn btn-lg mt-1 me-1" href="#">
-                <span class="about-span">powershell</span>
+                <span class="about-span">Node js</span>
             </a>
             <a class="btn btn-lg mt-1 me-1" href="#">
-                <span class="about-span">reverse engineering</span>
+                <span class="about-span">Express js</span>
             </a>
             <a class="btn btn-lg mt-1 me-1" href="#">
-                <span class="about-span">web exploitaion</span>
+                <span class="about-span">Mongodb</span>
             </a>
             <a class="btn btn-lg mt-1 me-1" href="#">
-                <span class="about-span">network expliotation</span>
+                <span class="about-span">web development</span>
             </a>
         </div>
     </div>
