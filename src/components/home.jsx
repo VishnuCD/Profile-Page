@@ -11,7 +11,7 @@ function Home(){
         <>
     <Container fluid>
         <Row>
-        <h4 class="firsthead"><MdOutlineDeveloperMode  size={50} style={{fill:' rgb(0, 255, 0)'}}/>Software Devloper</h4>
+        <h5 class="firsthead"><MdOutlineDeveloperMode  size={35} style={{fill:' rgb(0, 255, 0)'}}/>Software Devloper</h5>
         <Col>
         <Icon/>
         </Col>
@@ -20,22 +20,24 @@ function Home(){
                 <main class="containers">
                 <section class="animation">
                     <div class="first">
-                        <div>Ethical Hac</div>
+                        <div>Web Developer</div>
                     </div>
                     <div class="second">
-                        <div>Technologist</div>
+                        <div>React js Developer</div>
                     </div>
                      <div class="third">
-                        <div>Visionary</div>
+                        <div>Node js Developer</div>
                     </div>
                     <div class="forth">
-                        <div>Zsociaty Founder & President</div>
+                        <div>Mern Stack</div>
                     </div>
                 </section>
                 </main>
-                <p class="description">Dynamic and detail-oriented Computer Science graduate with hands-on experience in MERN Stack technologies, seeking an entry-level position to contribute to the development of robust web applications. Eager to leverage skills in MongoDB, Express.js, React.js, and Node.js to create intuitive user interfaces and contribute to innovative projects</p><br />
+                <p class="description">A computer science graduate with experience in MERN stack development, 
+                proficiency in JavaScript, HTML, CSS, React, Node.js, Express, and MongoDB, eager to contribute to innovative projects.
+                </p><br />
                     <div class="about-btn">
-       <a href=''><button class="button me-2">Project</button></a>
+       <a href='/projects'><button class="button me-2">Project</button></a>
        <a href='/about'><button class="button me-2">About me </button></a>
        <a href='/contact'><button class="button">Contact me</button></a>
        </div>

@@ -2,10 +2,10 @@ import '../css/head.css';
 import { useNavigate } from 'react-router-dom';
 function Head(){
   const nextpage = useNavigate()
-  const logout =()=>{
-    localStorage.clear();
-    nextpage("/")
-  }
+  // const logout =()=>{
+  //   localStorage.clear();
+  //   nextpage("/")
+  // }
     return (<>
    <header>
   <input type='checkbox' id='toggle' style={{display:'none'}} />
@@ -17,10 +17,10 @@ function Head(){
   <nav>
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/profileinfo">Portfolio</a></li>
+      <li><a href="/projects">Projects</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/contact">Contact</a></li>
-      <li><a href="/login" onClick={logout}>Logout</a></li>
+      {/* <li><a href="/login" onClick={logout}>Logout</a></li> */}
     </ul>
   </nav>
 </header>

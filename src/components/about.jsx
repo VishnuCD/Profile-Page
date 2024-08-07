@@ -2,13 +2,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import '../css/about.css'
 import Icon from "./icons";
 import Head from "./head";
-import { LiaHackerrank } from "react-icons/lia";
+import { MdOutlineDeveloperMode } from "react-icons/md";
 function About(){
     return (
         <>
         
         <Container fluid style={{paddingBottom:"10px"}}>
-        <h4 class="firsthead"><LiaHackerrank size={50} style={{fill:' rgb(0, 255, 0)'}}/>ack</h4>
+        <h5 class="firsthead"><MdOutlineDeveloperMode  size={35} style={{fill:' rgb(0, 255, 0)'}}/>Software Devloper</h5>
+
             <Row>
                 <Col lg={1}>
                     <Icon/>
@@ -17,17 +18,21 @@ function About(){
                 <h2 class="portfolio">About</h2>
         <hr class="one" id="one" />
             <Row>
-                <Col lg={5}>
+                <Col lg={4}>
                 <p class="first-col-para mt25">Who am i ?</p>
                 </Col>
-                <Col lg={6}>
-                <p class="second-col-para">👋 Hi there! I'm Vishnu, a budding MERN Stack Developer fresh out of college with a zest for building web applications that not only function seamlessly but also deliver a satisfying user experience. Dive into details about my journey and work! 🚀
+                <Col lg={7}>
+                <p class="second-col-para">👋Hello! I'm Vishnu kk, a motivated and detail-oriented entry-level MERN stack developer with a passion for building robust and user-friendly applications. With a strong foundation in computer science and web development, I'm excited to bring my skills and creativity to a dynamic team.! 🚀
+                    <br />  University of Calicut, where I earned my degree in Computer Science. <br />
+                    My expertise includes: <br />
+                    < ul>
+                        <li className="text-white">  Proficiency in JavaScript, HTML, CSS, and various frameworks like React, Express, and Node.js</li>
+                        <li className="text-white">Experience with database management using MongoDB</li>
+                        <li className="text-white">Understanding of web development principles, including responsiveness, accessibility, and performance optimization</li>
+                        <li className="text-white">Strong problem-solving skills and attention to detail</li>
+                        <li className="text-white">Excellent communication and teamwork skills</li>
+                    </ul>
 
-From the University of Calicut, where I earned my degree in Computer Science, to my hands internships, my academic and professional path has been geared towards understanding and mastering technologies like React.js, Node.js, Express.js, and MongoDB. I have practical experience from conceptualizing and developing an e-commerce platform for a bakery to creating a user-centric profile management system. Each project was a stepping stone, strengthening my coding skills and understanding of web development nuances.
-
-I believe in the power of collaboration and continuous learning; during my internships, I not only refined my technical skills but also learned to thrive in team settings, pushing projects from ideation to launch. I’m always enthusiastic about meeting challenges head-on and rolling out features that enhance user interactions.
-
-🎥 Outside my professional life, I recharge by watching movies and tuning into my favorite music, which keeps me creatively inspired and ready to tackle the next coding challenge.. 
                 </p>
                 </Col>
             </Row>
@@ -40,7 +45,7 @@ I believe in the power of collaboration and continuous learning; during my inter
                 </Col>
             </Row>
             <Row>
-                <Col lg={5}>
+                <Col lg={4}>
                 <p class="first-col-para mt1001">skills</p>
                 </Col>
                 <Col lg={7}>

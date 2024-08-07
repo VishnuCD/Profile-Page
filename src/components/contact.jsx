@@ -4,7 +4,7 @@ import Icon from './icons';
 import Head from './head';
 import { useRef, useState } from 'react';
 import AXIOS from 'axios'
-import { LiaHackerrank } from "react-icons/lia";
+import { MdOutlineDeveloperMode } from "react-icons/md";
 function Contact(){
   const [cemail,setCemail]=useState('');
   const [cname,setCname]=useState('');
@@ -31,7 +31,7 @@ function Contact(){
     return (<>
     
     <Container fluid>
-    <h4 class="firsthead"><LiaHackerrank size={50} style={{fill:' rgb(0, 255, 0)'}}/>ack</h4>
+    <h5 class="firsthead"><MdOutlineDeveloperMode  size={35} style={{fill:' rgb(0, 255, 0)'}}/>Software Devloper</h5>
       <Row>
         <Col lg={1}>
           <Icon/>
