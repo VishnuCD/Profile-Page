@@ -69,10 +69,10 @@ function Project(){
 					{/* <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
 					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> */}
 					<li class="tag__item play yellow">
-						<a href="#"><i class="fas fa-play mr-2"></i>View</a>
+						<a href="https://profile-page-swart.vercel.app/"><i class="fas fa-play mr-2"></i>View</a>
 					</li>
                     <li class="tag__item play green">
-						<a href="#"><i class="fas fa-play mr-2"></i>Code</a>
+						<a href="https://github.com/VishnuCD/Profile-Page.git"><i class="fas fa-play mr-2"></i>Code</a>
 					</li>
 				</ul>
 			</div>
