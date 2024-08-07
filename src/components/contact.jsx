@@ -1,6 +1,6 @@
 import { Container,Row,Col } from 'react-bootstrap';
 import '../css/contact.css';
-import Icon from './icons';
+
 import Head from './head';
 import { useRef, useState } from 'react';
 import AXIOS from 'axios'
@@ -34,7 +34,7 @@ function Contact(){
     <h5 class="firsthead"><MdOutlineDeveloperMode  size={35} style={{fill:' rgb(0, 255, 0)'}}/>Software Devloper</h5>
       <Row>
         <Col lg={1}>
-          <Icon/>
+          
         </Col>
         <Col lg={11}>
         <div class="background">

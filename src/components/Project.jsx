@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import '../css/card.css'
-import Icon from "./icons";
 import Head from "./head";
 import { MdOutlineDeveloperMode } from "react-icons/md";
 import ImageOfBakery from '../images/Bakery.jpeg'
@@ -12,14 +11,14 @@ function Project(){
         <h5 class="firsthead"><MdOutlineDeveloperMode  size={35} style={{fill:' rgb(0, 255, 0)'}}/>Software Devloper</h5>
             <Row>
                 <Col lg={1}>
-                    <Icon/>
+                 
                 </Col>
                 <Col lg={11}>
                 <h2 class="portfolio">Projects</h2>
             <hr class="one" id="one" />
             <Row>
             <section class="dark">
-	    <div class="container py-4">
+	    <div class="container py-4 mt-4">
 		<article class="postcard dark green">
 			<a class="postcard__img_link" href="">
 				<img class="postcard__img" src={ImageOfBakery} alt="Image Title" />
@@ -28,7 +27,7 @@ function Project(){
 				<h1 class="postcard__title green"><a href="https://github.com/VishnuCD/E-commerce.git"> Ecommerce Website For Bakery </a></h1>
 				<div class="postcard__subtitle small">
 					<time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+						{/* <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020 */}
 					</time>
 				</div>
 				<div class="postcard__bar"></div>
@@ -57,7 +56,7 @@ function Project(){
 				<h1 class="postcard__title yellow"><a href="https://github.com/VishnuCD/Profile-Page.git">Portfolio</a></h1>
 				<div class="postcard__subtitle small">
 					<time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+						{/* <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020 */}
 					</time>
 				</div>
 				<div class="postcard__bar"></div>

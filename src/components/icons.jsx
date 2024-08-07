@@ -1,19 +1,37 @@
-import { FaFacebookF } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
-import { SiWhatsapp } from "react-icons/si";
-import { IoIosMail } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa";
+import {Container} from 'react-bootstrap'
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+
 import '../css/icons.css';
 function Icon(){
     return (<>
-                
-<div class="menu">
-    <li class="menu-item"><a href="https://www.linkedin.com/in/vishnu-kk-/"><FaLinkedin style={{fill:'white'}} /></a></li>
-    <li class="menu-item"> <a><SiWhatsapp  style={{fill:'white'}}/></a></li>
-    <li class="menu-item"><a><FaFacebookF style={{fill:'white'}}/></a></li>
-    <li class="menu-item"><a><BsInstagram style={{fill:'white'}}/></a></li>
-    <li class="menu-item"><a href="#" ><IoIosMail style={{fill:'white'}}/></a></li>
-</div>
+    <Container fluid>
+      <div className='d-flex justify-content-start mt-3 mx-5'>
+      <a href=''>
+      <button type="button" class="btn btn-secondary btn-sm btn-rounded" data-mdb-ripple-init>Get In Touch</button></a>
+      </div>
+      <div className='d-flex justify-content-start mt-3 mx-5'>  
+      {/* Linkedin */}
+      <a className='btn btn-primary me-3' 
+  href="https://www.linkedin.com/in/vishnu-kk-/"
+>
+  <FaLinkedin size={14} fill='white'/>
+</a>
+<>
+  {/* Github */}
+  <a 
+     className="btn btn-secondary"
+     href="https://github.com/VishnuCD"
+  >
+    <FaGithub size={14} fill='white'/>
+  </a>
+</>
+
+
+      </div>
+
+    </Container>
+
     </>)
 }
 export default Icon;
