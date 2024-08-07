@@ -37,22 +37,22 @@ function Home(){
                 <p class="description">A computer science graduate with experience in MERN stack development, 
                 proficiency in JavaScript, HTML, CSS, React, Node.js, Express, and MongoDB, eager to contribute to innovative projects.
                 </p>
-            <div className='d-flex justify-content-center d-grid gap-2'>
+            <div className='d-flex justify-content-center d-grid gap-4'>
        <a href='/projects'>
-       <button type="button" class="btn btn-outline-light btn-lg  me-3 " data-mdb-ripple-init data-mdb-ripple-color="dark">
+       <button type="button" class="btn btn-outline-light btn-lg   " data-mdb-ripple-init data-mdb-ripple-color="dark">
         Projects</button>
         </a>
        <a href='/about'>
-       <button type="button" class="btn btn-outline-light btn-lg   me-3" data-mdb-ripple-init data-mdb-ripple-color="dark">
+       <button type="button" class="btn btn-outline-light btn-lg " data-mdb-ripple-init data-mdb-ripple-color="dark">
         About</button>
         </a>
        <a href='/contact'>
-       <button type="button" class="btn btn-outline-light btn-lg  me-3" data-mdb-ripple-init data-mdb-ripple-color="dark">
+       <button type="button" class="btn btn-outline-light btn-lg  " data-mdb-ripple-init data-mdb-ripple-color="dark">
         Contact</button>
         </a>
 
        </div>
-        <Icon/>
+       <Icon/>
             </Col>
                 <Col lg={5}>
                 <img src={backgroundImage}  class="home-img" />               

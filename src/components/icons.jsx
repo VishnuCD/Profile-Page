@@ -6,7 +6,7 @@ import '../css/icons.css';
 function Icon(){
     return (<>
     <Container fluid>
-      <div className='d-flex justify-content-start mt-3 mx-5'>
+      <div className='d-flex justify-content-start mt-3 '>
       <a href=''>
       <button type="button" class="btn btn-secondary btn-sm btn-rounded" data-mdb-ripple-init>Get In Touch</button></a>
       </div>
